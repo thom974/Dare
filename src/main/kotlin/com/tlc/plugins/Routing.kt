@@ -11,5 +11,6 @@ fun Application.configureRouting() {
 	routing {
 		verifyToken("/verifyToken")
 		register("/register")
+		uploadImage("/uploadImage")
 	}
 }
